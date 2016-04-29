@@ -1,11 +1,19 @@
 {
   "name": "angular-maxlength",
   "version": "1.0.0",
-  "description": "",
+  "description": "Directive for specifying and enforcing a maxlength on all inputs",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "author": "Jack Hanford <jackhanford@gmail.com> (http://jackhanford.com)",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanford/angular-maxlength.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hanford/angular-maxlength/issues"
+  },
+  "peerDependencies": {
+    "angular": ">=1.5 <2"
+  }
 }

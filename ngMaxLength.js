@@ -1,7 +1,6 @@
-module.exports = require('angular')
+angular
   .module('ngMaxLength', [])
   .directive('ngMaxlength', ngMaxLength)
-  .name
 
 function ngMaxLength () {
   return {
